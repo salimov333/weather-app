@@ -1,0 +1,21 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Using the weather-api to create a weather app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "chmod +x src/index.js && npm link",
+    "undeploy": "npm unlink -g"
+  },
+  "bin": {
+    "weather": "src/index.js"
+  },
+  "keywords": [],
+  "author": "Salem",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
