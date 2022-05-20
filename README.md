@@ -1,4 +1,6 @@
 # Weather app
+- `JavaScript` 
+- `Node.js`
 ## Using the weather API to create a weather app that gets and prints the weather based on a city name.
 ---
 ### Resources:
