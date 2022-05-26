@@ -12,6 +12,7 @@
 ### Install:
 ```bash
 npm i
+npm run deploy
 ```
 ### Set the environment variables
 - Create a file called .env
@@ -19,10 +20,11 @@ npm i
 > API_KEY=your weather api key goes here
 ### Run:
 ```bash
-`inside the app`
-npm start + "city name" 
-npm run deploy
-`inside or outside the app`
-weather + "city name" 
+npm start `city name` 
+```
+`or`
+```bash
+weather `city name` 
 ```
 ---
+
