@@ -15,37 +15,10 @@ npm i
 ```
 ### Run:
 ```bash
-npm run start + "city name" `inside the app`
-weather + "city name" `inside or outside the app`
+`inside the app`
+npm start + "city name" 
+npm run deploy
+`inside or outside the app`
+weather + "city name" 
 ```
 ---
-### Starter cmd:
-```bash
-npm init -y
-echo "node_modules/" > .gitignore
-npm i dotenv
-npm i axios
-mkdir src
-touch config.js src/index.js
-```
-
-### Constructor:
-#### package.json
-```javascript
-"script":{
-"start": "node src/index.js",
-"deploy": "chmod +x src/index.js && npm link",
-"undeploy": "npm unlink -g"
-},
-"bin": {
-    "weather": "src/index.js"
-  }
-```
-#### deploy
-```bash
-npm run deploy
-```
-#### undeploy
-```bash
-npm run undeploy
-```
