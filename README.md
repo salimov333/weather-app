@@ -13,8 +13,10 @@
 ```bash
 npm i
 ```
-### Set environment variables
-- Add your own environment variables in the .env.example file
+### Set the environment variables
+- Create a file called .env
+- Add the following in your .env file:
+> API_KEY=your weather api key goes here
 ### Run:
 ```bash
 `inside the app`
