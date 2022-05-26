@@ -13,6 +13,8 @@
 ```bash
 npm i
 ```
+### Set environment variables
+- Add your own environment variables in the .env.example file
 ### Run:
 ```bash
 `inside the app`
